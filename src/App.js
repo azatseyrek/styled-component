@@ -1,10 +1,14 @@
-
+import Header from './components/Header';
+import {Container} from './styles/Container.style';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Header />
+      <Container>
+        <h1>Hello React</h1>
+      </Container>
+    </>
   );
 }
 
